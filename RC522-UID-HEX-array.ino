@@ -9,7 +9,7 @@
 MFRC522 mfrc522(SS_PIN, RST_PIN);	// Create MFRC522 instance
 
 char message_buff[100];
-int i = 0;
+//int i = 0;
 String msgString = String(message_buff);
 
 
