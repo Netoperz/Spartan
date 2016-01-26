@@ -26,7 +26,7 @@ String msgString = String(message_buff);
 		return;
 		}
 
-		if ( ! mfrc522.PICC_ReadCardSerial()) {//=== Select one of the cards
+		if ( ! mfrc522.PICC_ReadCardSerial()) //=== Select one of the cards
 		return;
 // 		Serial.print("Card UID:");   //Dump UID , this line for debug only
 
