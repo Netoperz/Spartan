@@ -13,7 +13,7 @@ String msgString = String(message_buff);
 	void setup() {
 		Serial.begin(9600);		// Initialize serial communications with the PC
 		while (!Serial);		// Do nothing if no serial port is opened (added for Arduinos based on ATMEGA32U4)
-//  	Serial1.begin(9600); // Initialize serial for bluetooth link only for bluetooth version
+//		Serial1.begin(9600);    // Initialize serial for bluetooth link only for bluetooth version
 		SPI.begin();			// Init SPI bus
 		mfrc522.PCD_Init();		// Init MFRC522
 //		ShowReaderDetails();	// Show details of PCD - MFRC522 Card Reader details for debug only
